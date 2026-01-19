@@ -1,1 +1,19 @@
+import java.util.*;
+import java.util.Scanner;
 
+class BrewSizeAdvisor{
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    int liter=sc.nextInt();
+
+  if(liter>350){
+      System.out.println("Large");
+  }
+  else if(200<=liter && liter<=350){
+      System.out.println("Medium");
+  }
+  else if(liter<200){
+      System.out.println("Small");
+  }
+}
+}
