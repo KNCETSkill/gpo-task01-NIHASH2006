@@ -6,7 +6,7 @@ class BrewSizeAdvisor{
     Scanner sc=new Scanner(System.in);
     int liter=sc.nextInt();
 
-  for(liter>350){
+  if(liter>350){
       System.out.println("Large");
   }
   else if(200<=liter && liter<=350){
