@@ -9,7 +9,7 @@ class BrewSizeAdvisor{
   for(liter>350){
       System.out.println("Large");
   }
-  else if(250<liter<350){
+  else if(200<=liter && liter<=350){
       System.out.println("Medium");
   }
   else if(liter<200){
